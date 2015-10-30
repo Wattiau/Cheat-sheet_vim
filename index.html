@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Cheat cheet vim</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+	<header>
+		<h1>Cheat sheet VIM</h1>
+	</header>
+
+	<section>
+
+		<h2>Déplacement dans VIM :</h2>
+
+			<ul>
+				<li>k = Haut.</li>
+				<li>l = Droite.</li>
+				<li>h = Gauche.</li>
+				<li>j = Bas.</li>
+				<li>G = Se déplacer en bas du fichier.</li>
+				<li>gg = Se déplacer en bas du fichier.</li>
+				<li>(chiffer)+G = Se déplacer sur une ligne précise.</li>
+				<li>ctrl-f = Descendre d'un écran.</li>
+				<li>ctrl-b = Remonter d'un ecran.</li>
+				<li>b = Aller au début du mot précédent.</li>
+				<li>w = Aller au début du mot suivant.</li>
+				<li>e = Aller a la fin du mot suivant.</li>
+			</ul>
+
+		<h2>Commande de VIM :</h2>
+			
+			<ul>
+				<li>:wq = Enregistrer le fichier et quitter.</li>
+				<li>:q! = Quitter le fichier sans enregistrer</li>
+				<li>x = Supprimer le caracrtère sous le curseur.</li>
+				<li>i = Insérer du texte sous le curseur.</li>
+				<li>a = Insérer du texte aprés le curseur.</li>
+				<li>dw = Supprime le mot ( Curseur placer sur la 1er lettre du mot).</li>
+				<li>d$ = Supprimer jusqu'au bout de la ligne ( a partir du curseur).</li>
+				<li>dd = Supprimer toute la ligne.</li>
+				<li>u = Annuler les dernières commandes.</li>
+				<li>p = Place aprés le curseur ce qu'on vient de supprimer.</li>
+				<li>r(+1 lettre) = Remplace la lettre sous le curseur par le caractère choisit.</li>
+				<li>cs = Supprime le mot pour le réecrire.</li>
+				<li>c$ = Supprime le reste de la ligne pour la réecrire.</li>
+				<li>CTRL-G = Afficher la position dans le fichier et son etat actuel.</li>
+				<li>/ = Fonction recherche.</li>
+				<li>% = Placer sur des "(,[,{" cette commande sert a trouver la fermeture de la parenthése sur laquel le curseur et placer.</li>
+				<li>? = Recherche dans le sens oposer de la commande "/".</li>
+				<li>:! = Permet d'effectuer n'importe quel commande externe ( comme sur le terminal) exemple = :!ls.</li>
+				<li>:w = Permet d'enregistrer un fichier.</li>
+				<li>v = Selectionner du texte.</li>
+				<li>:r(nomdefichier) = Permet de coller le contenue d'un fichier sur le fichier actuel.</li>
+				<li>o = Passer en mode insertion sur la ligne dessous le curseur.</li>
+				<li>R = Remplacer plusieurs caractères.</li>
+				<li>y et p = En mode visuel (v) utiliser "y" pour copier les élement selectionner et "p" pour les coller.</li>
+				<li>:help = Aide de VIM.</li>
+				<li>:e ~/.vimrc = Acceder au fichier config de VIM</li>
+			</ul>
+
+
+	</section>
+
+	<footer>
+	</footer
+</body>
+
+</html>
