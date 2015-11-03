@@ -46,10 +46,10 @@ body
 
 section
 {
-	border : solid black 1.2em;
+	border : solid black .5em;
 	border-radius : 1em;
 	background-color: silver;
-	width : 80%;
+	width : 50%;
 	margin: auto;
 }
 
