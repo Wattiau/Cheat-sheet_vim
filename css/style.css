@@ -32,19 +32,16 @@ h2
 @media (max-width: 1024px)
 {
 
-
 header
 {
 	text-align : center;
-	color : black;
-	font-size: 3.3em;
+	color : white;
 }
 
 body
 {
-	
 	background-image : url("http://www.omegatic.com/wp-content/uploads/2014/05/Background-HD-Wallpaper-02-Download.jpg");
-
+	background-size : cover;
 }
 
 section
@@ -52,19 +49,17 @@ section
 	border : solid black 1.2em;
 	border-radius : 2em;
 	background-color: silver;
-	width : 100%;
-	margin-right:10%;
+	width : 550px;
+	margin: auto;
 }
 
 li
 {
 	line-height : 2em;
-	font-size: 3em;
 }
 
 h2
 {
 	text-align: center;
-	font-size: 3.2em;
 }
 }
