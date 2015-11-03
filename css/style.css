@@ -29,6 +29,11 @@ h2
 	text-align: center;
 }
 
+strong
+{
+	font-weight: bold;
+	color: red;
+}
 @media (max-width: 1024px) /*CCS version mobile, en dessous de 1024px*/
 {
 
@@ -62,5 +67,11 @@ li
 h2
 {
 	text-align: center;
+}
+
+strong
+{
+	font-weight: bold;
+	color: red;
 }
 }
