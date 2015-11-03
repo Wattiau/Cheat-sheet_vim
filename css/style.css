@@ -28,3 +28,40 @@ h2
 {
 	text-align: center;
 }
+
+@media (max-width: 1024px)
+{
+
+
+header
+{
+	text-align : center;
+	color : white;
+}
+
+body
+{
+	background-image : url("http://www.omegatic.com/wp-content/uploads/2014/05/Background-HD-Wallpaper-02-Download.jpg");
+	background-size : cover;
+}
+
+section
+{
+	border : solid black 1.2em;
+	border-radius : 2em;
+	background-color: silver;
+	width : 550px;
+	margin: auto;
+}
+
+li
+{
+	line-height : 2em;
+	text-size: 2em;
+}
+
+h2
+{
+	text-align: center;
+}
+}
