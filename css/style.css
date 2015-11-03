@@ -37,6 +37,7 @@ header
 {
 	text-align : center;
 	color : black;
+	font-size: 4em;
 }
 
 body
@@ -50,7 +51,7 @@ section
 	border-radius : 2em;
 	background-color: silver;
 	width : 100%;
-	margin:auto;
+	margin-right:1em;
 }
 
 li
