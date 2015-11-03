@@ -42,7 +42,14 @@ header
 
 body
 {
-	background-color: white
+	
+	background-image : url("http://www.omegatic.com/wp-content/uploads/2014/05/Background-HD-Wallpaper-02-Download.jpg");
+
+}
+
+h2
+{
+	font-size: 4em;
 }
 
 section
