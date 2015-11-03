@@ -47,9 +47,9 @@ body
 section
 {
 	border : solid black 1.2em;
-	border-radius : 2em;
+	border-radius : 1em;
 	background-color: silver;
-	width : 550px;
+	width : 80%;
 	margin: auto;
 }
 
