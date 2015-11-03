@@ -36,13 +36,12 @@ h2
 header
 {
 	text-align : center;
-	color : white;
+	color : black;
 }
 
 body
 {
-	background-image : url("http://www.omegatic.com/wp-content/uploads/2014/05/Background-HD-Wallpaper-02-Download.jpg");
-	background-size : cover;
+	background-color: white
 }
 
 section
