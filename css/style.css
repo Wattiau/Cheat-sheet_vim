@@ -1,27 +1,27 @@
 header
 {
-	text-align : center;
-	color : white;
+	text-align : center;		/*Centre le texte*/
+	color : white;			/*Change la couleur des écritures en blanc*/
 }
 
 body
 {
 	background-image : url("http://www.omegatic.com/wp-content/uploads/2014/05/Background-HD-Wallpaper-02-Download.jpg");
-	background-size : cover;
+	background-size : cover;	/*Taille de background*/
 }
 
 section
 {
-	border : solid black 1.2em;
-	border-radius : 2em;
-	background-color: silver;
-	width : 550px;
-	margin: auto;
+	border : solid black 1.2em;	/*type, taille et couleur des bordures*/
+	border-radius : 2em;		/*Arrondie des bordures*/
+	background-color: silver;	/*Couleur du backgroud*/
+	width : 550px;			/*Largeur*/
+	margin: auto;			/*Marge extérieur*/
 }
 
 li
 {
-	line-height : 2em;
+	line-height : 2em;		/*Hauteur de ligne*/
 }
 
 h2
@@ -29,7 +29,7 @@ h2
 	text-align: center;
 }
 
-@media (max-width: 1024px)
+@media (max-width: 1024px) /*CCS version mobile, en dessous de 1024px*/
 {
 
 header
