@@ -51,13 +51,12 @@ section
 	background-color: silver;
 	width : 90%;
 	margin: auto;
-	line-height:2em;
 }
 
 li
 {
 	line-height : 1em;
-	font-size: 1em;
+	font-size: 2em;
 }
 
 h2
