@@ -50,8 +50,7 @@ section
 	border : solid black 1.2em;
 	border-radius : 2em;
 	background-color: silver;
-	width : 550px;
-	margin: auto;
+	width : 100%;
 }
 
 li
