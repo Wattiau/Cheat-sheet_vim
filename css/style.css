@@ -33,8 +33,9 @@ strong
 {
 	font-weight: bold;
 	color: white;
-	border-radius: .5em .5em .5em .5em;
+	border-radius: .8em .8em .8em .8em;
 	background-color: black;
+	padding: 5px 15px;
 }
 @media (max-width: 1024px)		 /*CCS version mobile, en dessous de 1024px*/
 {
