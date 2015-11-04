@@ -23,7 +23,11 @@ li
 {
 	line-height : 2em;		/*Hauteur de ligne*/
 }
-
+dt
+{
+	display: inline-block;
+	
+}
 h2
 {
 	text-align: center;
