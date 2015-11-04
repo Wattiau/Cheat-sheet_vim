@@ -12,7 +12,7 @@ body
 
 section
 {
-	border : solid black 1.2em;	/*type, taille et couleur des bordures*/
+	border : solid black 0.8em;	/*type, taille et couleur des bordures*/
 	border-radius : 2em;		/*Arrondie des bordures*/
 	background-color: silver;	/*Couleur du backgroud*/
 	width : 550px;			/*Largeur*/
@@ -32,9 +32,11 @@ h2
 strong
 {
 	font-weight: bold;
-	color: red;
+	color: white;
+	border-radius: .5em .5em .5em .5em;
+	background-color: black;
 }
-@media (max-width: 1024px) /*CCS version mobile, en dessous de 1024px*/
+@media (max-width: 1024px)		 /*CCS version mobile, en dessous de 1024px*/
 {
 
 header
@@ -72,6 +74,6 @@ h2
 strong
 {
 	font-weight: bold;
-	color: red;
+	color: white;
 }
 }
