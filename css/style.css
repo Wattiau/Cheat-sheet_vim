@@ -27,7 +27,7 @@ a
 
 li
 {
-	line-height : 2em;		/*Hauteur de ligne*/
+	line-height : 1.7em;		/*Hauteur de ligne*/
 	list-style: none;
 }
 dt
@@ -76,7 +76,7 @@ section
 
 li
 {
-	line-height : 1.5em;
+	line-height : 1.3em;
 	font-size: 1.3em;
 }
 
