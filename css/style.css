@@ -25,6 +25,13 @@ a
 	font-size: 1.5em;
 }
 
+.toppages
+{
+	color: black;
+	margin-left: 190px;
+	font-size: 1em;
+}
+
 li
 {
 	line-height : 1.7em;		/*Hauteur de ligne*/
@@ -90,5 +97,12 @@ code
 {
 	font-weight: bold;
 	color: white;
+}
+
+.toppages
+{
+	color: black;
+	margin-left: 65px;
+	font-size: 1em;
 }
 }
