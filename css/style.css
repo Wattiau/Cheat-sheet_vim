@@ -71,6 +71,12 @@ body
 	background-size : cover;
 }
 
+a
+{
+	color: white;
+	font-size: 1.2em;
+}
+
 section
 {
 	border : solid black .5em;
